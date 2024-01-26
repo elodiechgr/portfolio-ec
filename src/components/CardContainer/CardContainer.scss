@@ -1,0 +1,92 @@
+.card-container {
+  position: relative;
+  width: 1150px;
+  height: 100%;
+  margin: auto;
+  background-color: #faf0e6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 120px;
+  grid-column-gap: 190px;
+  margin-top: 170px;
+  margin-bottom: 170px;
+
+  &::before {
+    content: "WORKS";
+    position: absolute;
+    font-family: Prata ;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    font-size: 21vw;
+    font-weight: bold;
+    color: #fffff0;
+    z-index: 0; 
+    filter: blur(1px); 
+  }
+}
+
+.card {
+  z-index: 1;
+}
+
+   /* Large devices (tablets, less than 992px) */
+
+@media only screen and (max-width: 992px) {
+  
+  .card-container {
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 10px;
+    grid-row-gap: 120px;
+    grid-column-gap: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .card {
+    margin: 10px auto;
+  }
+}
+
+ /* Medium devices (phones, less than 768px) */
+
+@media only screen and (max-width: 768px) {
+  
+  .card-container {
+    width: 90%;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 10px;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .card {
+    margin: 10px auto;
+  }
+}
+  
+  
+/* XSmall devices (phones, less than 375px) */
+
+@media only screen and (max-width: 576px) {
+  
+    .card-container {
+      width: 90%;
+      height: auto;
+      grid-template-columns: 1fr;
+      margin-bottom: 5px;
+    }
+  
+    .card {
+      margin: 4px auto;
+    }
+  }
+  

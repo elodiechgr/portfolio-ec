@@ -1,0 +1,113 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+  .hero-title {
+    font-size: 5rem; 
+    text-align: left;
+    margin-bottom: 80px;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+    
+
+  /* Styles pour les petits écrans (moins de 992px) */
+
+@media only screen and (max-width: 992px) {
+  .hero {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+
+    .hero-title {
+      font-size: 3rem; 
+      text-align: left;
+      margin-bottom: 80px;
+      font-family: 'Cinzel', serif;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Styles pour les petits écrans (moins de 768px) */
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+  
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+  
+    .hero-title {
+      font-size: 3rem; 
+      text-align: left;
+      margin-bottom: 80px;
+      font-family: 'Cinzel', serif;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }}
+
+    /* Small devices (phones, less than 375px) */
+
+@media only screen and (max-width: 375px) {
+    .hero {
+      width: 100%;
+      min-height: 100vh;
+      position: relative;
+      color: #fff;
+      overflow: hidden;
+    
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+      }
+    }
+    
+      .hero-title {
+        font-size: 1.7rem; 
+        text-align: left;
+        margin-bottom: 60px;
+        font-family: 'Cinzel', serif;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      }}
+    }}

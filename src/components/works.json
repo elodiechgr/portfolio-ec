@@ -1,0 +1,55 @@
+[
+	{
+		"id": "1",
+		"title": "Booki",
+		"cover": "https://images.unsplash.com/photo-1560803262-95a9de00a057?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"pictures": "https://i.goopics.net/o6bpom.jpg",
+		"description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
+		"competences": ["HTML", "CSS"]
+	  },
+
+	{
+		"id": "2",
+		"title": "Portfolio Architecte",
+		"cover": "https://images.unsplash.com/photo-1617150119111-09bbb85178b0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"pictures": "https://i.goopics.net/oc5kfu.jpg",
+		"description": "Développement d'une page web dynamique en JavaScript, avec trois missions clés : création d'une page de présentation des travaux de l'architecte (utilisant un HTML existant), conception d'une page de connexion pour l'administrateur (client) à partir de zéro, et création d'une modale permettant le téléchargement de nouveaux médias, développée entièrement à partir de zéro.",
+		"competences": ["HTML", "CSS", "Javascript"]
+	  },
+
+	  {
+		"id": "3",
+		"title": "Kasa",
+		"cover": "https://images.unsplash.com/photo-1601359865491-c47a8d93159d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"pictures": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"description": "Développement d'une application web de location immobilière avec React. Initialisation du projet, conception et implémentation des composants React conformément aux maquettes Figma, intégration des routes avec React Router, et adaptation du design pour garantir une expérience responsive sur différentes plateformes.",
+		"competences": ["HTML", "Javascript", "React", "SCSS"]
+	  },
+
+	  {
+		"id": "4",
+		"title": "Mon vieux grimoire",
+		"cover": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"pictures": "https://i.goopics.net/ggscj6.jpg",
+		"description": "Mise en place du back-end d'un site de notation de livres avec Express. Création d'une API RESTful pour gérer l'ajout de notations et calculer la note moyenne d'un livre. Implémentation d'un système d'authentification pour sécuriser l'application. Intégration d'une gestion des fichiers utilisateur, permettant d'ajouter des médias liés aux livres.",
+		"competences": ["Node.js", "MongoDB", "Javascript"]
+	  },
+
+	  {
+		"id": "5",
+		"title": "Nina Carducci",
+		"cover": "https://images.unsplash.com/photo-1517639493569-5666a7b2f494?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"pictures": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"description": "Déboguer et optimiser un site de photographe en effectuant des améliorations globales des performances et du référencement SEO. Mettre en place le référencement local en utilisant Schema.org pour renforcer la visibilité géographique. Ajouter les métadonnées nécessaires pour les réseaux sociaux, favorisant le partage et l'interaction. Effectuer des modifications en matière d'accessibilité pour garantir une expérience inclusive. Corriger les bugs dans le code pour assurer un fonctionnement fluide du site. Fournir un rapport d'optimisation détaillé, exposant toutes les actions entreprises et leur impact sur le site.",
+		"competences": ["SEO", "HTML", "CSS", "Javascript"]
+	  },
+
+	  {
+		"id": "6",
+		"title": "Menu Maker",
+		"cover": "https://images.unsplash.com/photo-1631719298502-b235d68733a0?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"pictures": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"description": "Création de Menu Maker by Qwanta, un site facilitant la gestion des menus pour les restaurateurs. Utilisant la méthode agile, j'ai assuré une veille technologique, défini des specs avec le Product Owner et organisé le développement en suivant la méthodologie Scrum. Des fonctionnalités clés ont été déployées progressivement, garantissant qualité et adaptation aux besoins changeants du secteur de la restauration.",
+		"competences": ["HTML", "CSS", "Javascript"]
+	  }
+]
