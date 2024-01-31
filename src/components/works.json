@@ -2,54 +2,66 @@
 	{
 		"id": "1",
 		"title": "Booki",
-		"cover": "https://images.unsplash.com/photo-1560803262-95a9de00a057?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"cover": "https://i.goopics.net/o4fxq3.png",
 		"pictures": "https://i.goopics.net/o6bpom.jpg",
+		"github" : "https://github.com/elodiechgr/booki.git",
 		"description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
-		"competences": ["HTML", "CSS"]
+		"competences": ["HTML", "CSS"],
+		"enjeux" : "Intégrer la maquette au pixel près était l'enjeu de ce projet, j'ai réussi en suivant bien les indications sur la maquette Figma."
 	  },
 
 	{
 		"id": "2",
 		"title": "Portfolio Architecte",
-		"cover": "https://images.unsplash.com/photo-1617150119111-09bbb85178b0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"cover": "https://i.goopics.net/omgr45.png",
 		"pictures": "https://i.goopics.net/oc5kfu.jpg",
+		"github" : "https://github.com/elodiechgr/portfolio-architecte.git",
 		"description": "Développement d'une page web dynamique en JavaScript, avec trois missions clés : création d'une page de présentation des travaux de l'architecte (utilisant un HTML existant), conception d'une page de connexion pour l'administrateur (client) à partir de zéro, et création d'une modale permettant le téléchargement de nouveaux médias, développée entièrement à partir de zéro.",
-		"competences": ["HTML", "CSS", "Javascript"]
+		"competences": ["HTML", "CSS", "Javascript"],
+		"enjeux" : "La difficulté de ce projet était dans l'importantion dynamique des éléments via Javascript et la création de la modale avec une logique d'ajout de fichiers sans rechargement de la page. J'ai dû énormément me renseigner sur Javascript et suivre de nombreuses vidéos pour finalement trouver des solutions."
 	  },
 
 	  {
 		"id": "3",
 		"title": "Kasa",
-		"cover": "https://images.unsplash.com/photo-1601359865491-c47a8d93159d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		"pictures": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"cover": "https://i.goopics.net/pxvjqt.png",
+		"pictures": "https://i.goopics.net/qai2iw.jpg",
+		"github" : "https://github.com/elodiechgr/kasa.git",
 		"description": "Développement d'une application web de location immobilière avec React. Initialisation du projet, conception et implémentation des composants React conformément aux maquettes Figma, intégration des routes avec React Router, et adaptation du design pour garantir une expérience responsive sur différentes plateformes.",
-		"competences": ["HTML", "Javascript", "React", "SCSS"]
+		"competences": ["HTML", "Javascript", "React", "SCSS"],
+		"enjeux" : "Le principal enjeu de ce projet était de bien utiliser React et sa logique de composants modulables, j'ai bien réfléchi à l'utilisation de chaque composant avant de les créer afin d'avoir une logique et une bonne constrcution dans cette application."
 	  },
 
 	  {
 		"id": "4",
 		"title": "Mon vieux grimoire",
-		"cover": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		"pictures": "https://i.goopics.net/ggscj6.jpg",
+		"cover": "https://i.goopics.net/v9s996.png",
+		"pictures": "https://i.goopics.net/x1td81.jpg",
+		"github" : "https://github.com/elodiechgr/mon-vieux-grimoire.git",
 		"description": "Mise en place du back-end d'un site de notation de livres avec Express. Création d'une API RESTful pour gérer l'ajout de notations et calculer la note moyenne d'un livre. Implémentation d'un système d'authentification pour sécuriser l'application. Intégration d'une gestion des fichiers utilisateur, permettant d'ajouter des médias liés aux livres.",
-		"competences": ["Node.js", "MongoDB", "Javascript"]
+		"competences": ["Node.js", "MongoDB", "Javascript"],
+		"enjeux" : "Dans ce projet, je devais utiliser les principes du green code, j'ai donc dû faire des recherches afin de proposer les meilleures pratiques. "
 	  },
 
 	  {
 		"id": "5",
 		"title": "Nina Carducci",
-		"cover": "https://images.unsplash.com/photo-1517639493569-5666a7b2f494?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		"pictures": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"cover": "https://i.goopics.net/oe2myv.png",
+		"pictures": "https://i.goopics.net/rdrnwi.jpg",
+		"github" : "https://github.com/elodiechgr/site-photographe.git",
 		"description": "Déboguer et optimiser un site de photographe en effectuant des améliorations globales des performances et du référencement SEO. Mettre en place le référencement local en utilisant Schema.org pour renforcer la visibilité géographique. Ajouter les métadonnées nécessaires pour les réseaux sociaux, favorisant le partage et l'interaction. Effectuer des modifications en matière d'accessibilité pour garantir une expérience inclusive. Corriger les bugs dans le code pour assurer un fonctionnement fluide du site. Fournir un rapport d'optimisation détaillé, exposant toutes les actions entreprises et leur impact sur le site.",
-		"competences": ["SEO", "HTML", "CSS", "Javascript"]
+		"competences": ["SEO", "HTML", "CSS", "Javascript"],
+		"enjeux" : "Le principal enjeu de ce projet était de passer chaque score Lighthouse au dessus de 90 points. J'ai réussi à atteindre cet objectif notamment grâce à la compression des images."
 	  },
 
 	  {
 		"id": "6",
 		"title": "Menu Maker",
-		"cover": "https://images.unsplash.com/photo-1631719298502-b235d68733a0?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		"pictures": "https://images.unsplash.com/photo-1542272201-b1ca555f8505?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"cover": "https://i.goopics.net/s5tsqe.png",
+		"pictures": "https://i.goopics.net/9uv8je.jpg",
+		"github" : "https://www.notion.so/8ff483448a5245d1a7c7e8b75bcb30fe?v=a65130874a974233b3702f0d81b33dcc",
 		"description": "Création de Menu Maker by Qwanta, un site facilitant la gestion des menus pour les restaurateurs. Utilisant la méthode agile, j'ai assuré une veille technologique, défini des specs avec le Product Owner et organisé le développement en suivant la méthodologie Scrum. Des fonctionnalités clés ont été déployées progressivement, garantissant qualité et adaptation aux besoins changeants du secteur de la restauration.",
-		"competences": ["HTML", "CSS", "Javascript"]
+		"competences": ["HTML", "CSS", "Javascript"],
+		"enjeux" : "Dans ce projet, il a fallu développer de nouvelles compétences, celles d'une cheffe de projet. J'ai donc créé des tableaux Kanban sur Notion, une veille sur Wakelet et j'ai adopté la méthode agile."
 	  }
 ]

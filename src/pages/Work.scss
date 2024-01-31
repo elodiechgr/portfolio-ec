@@ -60,6 +60,11 @@ ul.competences-list li {
   padding: 10px;
 }
 
+.work-subtitle {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
 
 /* Large devices (tablets, less than 992px) */
 
@@ -96,6 +101,11 @@ ul.competences-list li {
     gap: 20px;
     margin-top: 20px;
   }}
+
+  .github-link {
+    color: #151515;
+    margin-top: 40px;
+  }
 
 /* Small devices (phones, less than 375px) */
 

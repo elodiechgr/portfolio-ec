@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import jsonData from "../components/works.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./Work.scss";
 
 export default function Work() {
@@ -32,7 +33,18 @@ export default function Work() {
                 <li key={index}>{skill}</li>
               ))}
           </ul>
+          <p className="work-subtitle">Mission :</p>
           <p>{selectedCard.description}</p>
+          <p className="work-subtitle">Problématiques et solutions :</p>
+          <p>{selectedCard.enjeux}</p>
+          <a
+            href={selectedCard.github}
+            className="github-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} size="2xl" />
+          </a>
         </div>
       </div>
       <div className="work-pictures">
