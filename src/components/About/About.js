@@ -10,11 +10,19 @@ const About = () => {
         <h2 className="about">À propos</h2>
         <p className="about-description">
           Je suis Elodie, développeuse web spécialisée en frontend. <br />
-          Après avoir travaillé plusieurs années en marketing, j'apporte une
-          perspective unique à mes projets en combinant créativité et
-          compétences techniques. Passionnée par la création d'interfaces
-          utilisateur intuitives et esthétiques, je suis toujours prête à
-          relever de nouveaux défis et à fournir des solutions de qualité.
+          <br />
+          Après avoir suivi la formation de développeur web d'Openclassrooms et
+          travaillé plusieurs années dans le marketing, j'apporte une
+          perspective unique à mes projets en combinant compétences techniques
+          et créativité. Passionnée par la création d'interfaces utilisateur
+          intuitives et esthétiques, je suis toujours prête à relever de
+          nouveaux défis et à fournir des solutions de qualité.
+          <br />
+          <br />
+          En tant que développeuse frontend, je maîtrise les langages HTML, CSS
+          et JavaScript ainsi que les frameworks et bibliothèques modernes
+          telles que React.js. Je suis également en mesure de rendre un site
+          responsive, de l'optimiser et de régler les bugs.
         </p>
         <div className="about-links">
           <a
