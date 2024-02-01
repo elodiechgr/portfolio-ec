@@ -9,14 +9,12 @@ const About = () => {
       <div className="about-body">
         <h2 className="about">À propos</h2>
         <p className="about-description">
-          Je suis Elodie, je suis développeuse web freelance, spécialisée en
-          frontend. <br />
+          Je suis Elodie, développeuse web spécialisée en frontend. <br />
           Après avoir travaillé plusieurs années en marketing, j'apporte une
           perspective unique à mes projets en combinant créativité et
           compétences techniques. Passionnée par la création d'interfaces
           utilisateur intuitives et esthétiques, je suis toujours prête à
-          relever de nouveaux défis et à fournir des solutions de qualité à mes
-          clients.
+          relever de nouveaux défis et à fournir des solutions de qualité.
         </p>
         <div className="about-links">
           <a

@@ -14,7 +14,7 @@
   .work-title {
     font-size: 100px;
     font-family: Cinzel;
-    margin-top: 80px;
+    margin-top: 10px;
     color: #151515;
   }
   
@@ -25,6 +25,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 100px;
     margin-top: 40px;
+    margin-bottom: 100px;
   }
   
   .work-details {
@@ -46,6 +47,8 @@
   }
 
 ul.competences-list {
+  display: flex;
+  gap: 20px;
   list-style: none;
   padding: 0;
   font-weight: 600;
@@ -116,14 +119,33 @@ ul.competences-list li {
 
   .work-title {
     font-size: 70px;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 0;
+  }
+
+  .work-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: #151515;
   }
   
   .work-content {
     font-size: 16px;
-    gap: 5px;
+    gap: 2px;
     margin-top: 0;
     display: flex;
     flex-direction: column;
-  }}
+  }
+
+  .work-pictures {
+    margin-top: 50px;
+    margin-bottom: 35px;
+  
+    img {
+      max-width: 100%; 
+      height: auto;   
+      display: block; 
+    }
+  }
+}
