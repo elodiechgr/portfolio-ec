@@ -21,10 +21,11 @@ const Hero = () => {
 
   return (
     <div className="about-hero">
-      <video ref={videoRef} autoPlay muted loop>
+      <video ref={videoRef} autoPlay muted loop playsInline>
         <source src="/assets/hero.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
       <div ref={contentRef} className="content"></div>
     </div>
   );
