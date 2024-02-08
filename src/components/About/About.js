@@ -11,12 +11,12 @@ const About = () => {
         <p className="about-description">
           Je suis Elodie, développeuse web spécialisée en frontend. <br />
           <br />
-          Après avoir suivi la formation de développeur web d'Openclassrooms et
-          travaillé plusieurs années dans le marketing, j'apporte une
-          perspective unique à mes projets en combinant compétences techniques
-          et créativité. Passionnée par la création d'interfaces utilisateur
-          intuitives et esthétiques, je suis toujours prête à relever de
-          nouveaux défis et à fournir des solutions de qualité.
+          Après avoir suivi une formation de développeur web et travaillé
+          plusieurs années dans le marketing, j'apporte une perspective unique à
+          mes projets en combinant compétences techniques et créativité.
+          Passionnée par la création d'interfaces utilisateurs intuitives et
+          esthétiques, je suis toujours prête à relever de nouveaux défis et à
+          fournir des solutions de qualité.
           <br />
           <br />
           En tant que développeuse frontend, je maîtrise les langages HTML, CSS

@@ -37,6 +37,10 @@ nav {
         font-weight: 400;
         padding: 10px;
         font-family: 'Manrope', sans-serif;
+
+        &:hover {
+          color: #e6e5e5;
+        }
       }
     }
   }

@@ -11,8 +11,8 @@ const Footer = () => {
         <h2>CONTACT</h2>
         <h3>Vous avez un projet ? Discutons-en !</h3>
         <h4>
-          <a href="mailto:chatelais.elodie@gmail.com" className="email-link">
-            chatelais.elodie@gmail.com
+          <a href="mailto:hello@elodiechatelais.com" className="email-link">
+            hello@elodiechatelais.com
           </a>
         </h4>
       </div>
