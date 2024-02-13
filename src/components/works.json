@@ -1,17 +1,6 @@
 [
 	{
 		"id": "1",
-		"title": "Booki",
-		"cover": "https://i.goopics.net/o4fxq3.png",
-		"pictures": "https://i.goopics.net/o6bpom.jpg",
-		"github" : "https://github.com/elodiechgr/booki.git",
-		"description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
-		"competences": ["HTML", "CSS"],
-		"enjeux" : "Intégrer la maquette au pixel près était l'enjeu de ce projet, j'ai réussi en suivant bien les indications sur la maquette Figma."
-	  },
-
-	{
-		"id": "2",
 		"title": "Portfolio Architecte",
 		"cover": "https://i.goopics.net/omgr45.png",
 		"pictures": "https://i.goopics.net/oc5kfu.jpg",
@@ -22,7 +11,29 @@
 	  },
 
 	  {
+		"id": "2",
+		"title": "Pink Snake",
+		"cover": "https://i.goopics.net/pbjsl6.png",
+		"pictures": "https://i.goopics.net/uju66k.jpg",
+		"github" : "https://github.com/elodiechgr/pink-snake",
+		"description": "J'ai souhaité développer une version différente de l'emblématique jeu Snake, c'est pourquoi je me suis lancé dans le développement d'une interprétation originale du jeu en optant pour une esthétique aux tons pastels.",
+		"competences": ["Javascript", "HTML", "CSS"],
+		"enjeux" : "Le développement de cette version de Snake a impliqué la création d'un mouvement fluide et naturel pour le serpent, tout en établissant des contraintes de jeu stimulantes pour maintenir l'intérêt du joueur. Cela a nécessité la mise en place de contrôles réactifs et intuitifs ainsi que la définition de limites de jeu claires, tout en préservant une sensation de liberté pour le serpent."
+	  },
+
+	{
 		"id": "3",
+		"title": "Booki",
+		"cover": "https://i.goopics.net/o4fxq3.png",
+		"pictures": "https://i.goopics.net/o6bpom.jpg",
+		"github" : "https://github.com/elodiechgr/booki.git",
+		"description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
+		"competences": ["HTML", "CSS"],
+		"enjeux" : "Intégrer la maquette au pixel près était l'enjeu de ce projet, j'ai réussi en suivant bien les indications sur la maquette Figma."
+	  },
+
+	  {
+		"id": "4",
 		"title": "Kasa",
 		"cover": "https://i.goopics.net/pxvjqt.png",
 		"pictures": "https://i.goopics.net/qai2iw.jpg",
@@ -33,7 +44,7 @@
 	  },
 
 	  {
-		"id": "4",
+		"id": "5",
 		"title": "Mon vieux grimoire",
 		"cover": "https://i.goopics.net/v9s996.png",
 		"pictures": "https://i.goopics.net/x1td81.jpg",
@@ -44,7 +55,7 @@
 	  },
 
 	  {
-		"id": "5",
+		"id": "6",
 		"title": "Nina Carducci",
 		"cover": "https://i.goopics.net/oe2myv.png",
 		"pictures": "https://i.goopics.net/rdrnwi.jpg",
@@ -55,7 +66,7 @@
 	  },
 
 	  {
-		"id": "6",
+		"id": "7",
 		"title": "Menu Maker",
 		"cover": "https://i.goopics.net/s5tsqe.png",
 		"pictures": "https://i.goopics.net/9uv8je.jpg",
