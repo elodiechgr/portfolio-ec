@@ -2,28 +2,40 @@ import React from "react";
 import "./About.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import profileImage from "../../assets/profile-image.png";
 
 const About = () => {
   return (
     <div id="about">
       <div className="about-body">
         <h2 className="about">À propos</h2>
-        <p className="about-description">
-          Je suis Elodie, développeuse web spécialisée en frontend. <br />
-          <br />
-          Après avoir suivi une formation de développeur web et travaillé
-          plusieurs années dans le marketing, j'apporte une perspective unique à
-          mes projets en combinant compétences techniques et créativité.
-          Passionnée par la création d'interfaces utilisateurs intuitives et
-          esthétiques, je suis toujours prête à relever de nouveaux défis et à
-          fournir des solutions de qualité.
-          <br />
-          <br />
-          En tant que développeuse frontend, je maîtrise les langages HTML, CSS
-          et JavaScript ainsi que les frameworks et bibliothèques modernes
-          telles que React.js. Je suis également en mesure de rendre un site
-          responsive, de l'optimiser et de régler les bugs.
-        </p>
+        <div className="about-content">
+          <div className="about-image">
+            <img
+              src={profileImage}
+              alt="Elodie Chatelais"
+              width="350"
+              height="350"
+            />
+          </div>
+          <div className="about-text">
+            <p className="about-description">
+              Je suis Elodie, développeuse web spécialisée en frontend. <br />
+              <br />
+              Avec un double cursus en développement web et marketing, j'apporte
+              une perspective unique à mes projets en combinant compétences
+              techniques et créativité. Passionnée par la création d'interfaces
+              utilisateurs intuitives et esthétiques, je suis toujours prête à
+              relever de nouveaux défis et à fournir des solutions de qualité.
+              <br />
+              <br />
+              En tant que développeuse frontend, je maîtrise les langages HTML,
+              CSS et JavaScript ainsi que les frameworks et bibliothèques
+              modernes telles que React.js. Je suis également en mesure de
+              rendre un site responsive, de l'optimiser et de régler les bugs.
+            </p>
+          </div>
+        </div>
         <div className="about-links">
           <a
             href="https://www.linkedin.com/in/elodie-chatelais/"
