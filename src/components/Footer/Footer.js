@@ -2,7 +2,11 @@ import React from "react";
 import "./Footer.scss";
 import Top from "../Top/Top";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedinIn,
+  faGithub,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -26,6 +30,17 @@ const Footer = () => {
             icon={faLinkedinIn}
             size="2xl"
             style={{ color: "#ffffff" }}
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/elodiecodinglab/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            icon={faInstagram}
+            size="2xl"
+            style={{ color: "#ffffff", marginLeft: "10px" }}
           />
         </a>
         <a

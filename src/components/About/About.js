@@ -1,7 +1,11 @@
 import React from "react";
 import "./About.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedinIn,
+  faGithub,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 import profileImage from "../../assets/profile-image.png";
 
 const About = () => {
@@ -31,8 +35,8 @@ const About = () => {
               <br />
               En tant que développeuse frontend, je maîtrise les langages HTML,
               CSS et JavaScript ainsi que les frameworks et bibliothèques
-              modernes telles que React.js. Je suis également en mesure de
-              rendre un site responsive, de l'optimiser et de régler les bugs.
+              modernes telles que React. Je suis également en mesure de rendre
+              un site responsive, de l'optimiser et de régler les bugs.
             </p>
           </div>
         </div>
@@ -46,6 +50,17 @@ const About = () => {
               icon={faLinkedinIn}
               size="2xl"
               style={{ color: "#ffffff" }}
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/elodiecodinglab/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faInstagram}
+              size="2xl"
+              style={{ color: "#ffffff", marginLeft: "10px" }}
             />
           </a>
           <a
