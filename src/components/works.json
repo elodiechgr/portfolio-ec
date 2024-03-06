@@ -5,9 +5,9 @@
 		"cover": "https://i.goopics.net/omgr45.png",
 		"pictures": "https://i.goopics.net/oc5kfu.jpg",
 		"github" : "https://github.com/elodiechgr/portfolio-architecte.git",
-		"description": "Développement d'une page web dynamique en JavaScript, avec trois missions clés : création d'une page de présentation des travaux de l'architecte (utilisant un HTML existant), conception d'une page de connexion pour l'administrateur (client) à partir de zéro, et création d'une modale permettant le téléchargement de nouveaux médias, développée entièrement à partir de zéro.",
+		"description": "Développement d'une page web dynamique en JavaScript avec trois missions clés : premièrement, créer une page de présentation des travaux de l'architecte en utilisant un HTML existant ; deuxièmement, concevoir une page de connexion pour l'administrateur (client) à partir de zéro ; et troisièmement, mettre en place une modale permettant le téléchargement de nouveaux médias, entièrement développée à partir de zéro.",
 		"competences": ["HTML", "CSS", "Javascript"],
-		"enjeux" : "La difficulté de ce projet était dans l'importantion dynamique des éléments via Javascript et la création de la modale avec une logique d'ajout de fichiers sans rechargement de la page. J'ai dû énormément me renseigner sur Javascript et suivre de nombreuses vidéos pour finalement trouver des solutions."
+		"enjeux" : "La difficulté de ce projet résidait dans l'importation dynamique des éléments via Javascript et la création de la modale avec une logique d'ajout de fichiers sans rechargement de la page. L'utilisation d'écouteurs d'événements à permis de surmonter cette difficulté."
 	  },
 
 	  {
@@ -27,9 +27,9 @@
 		"cover": "https://i.goopics.net/o4fxq3.png",
 		"pictures": "https://i.goopics.net/o6bpom.jpg",
 		"github" : "https://github.com/elodiechgr/booki.git",
-		"description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
+		"description": " L'objectif est de développer un site Internet pour permettre aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Ma responsabilité consiste à intégrer l'interface du site en utilisant du code HTML et CSS.",
 		"competences": ["HTML", "CSS"],
-		"enjeux" : "Intégrer la maquette au pixel près était l'enjeu de ce projet, j'ai réussi en suivant bien les indications sur la maquette Figma."
+		"enjeux" : "La problématique majeure de ce projet résidait dans l'intégration précise de la maquette, nécessitant une attention minutieuse aux détails. Ma réussite dans cette tâche découle de ma rigueur à suivre scrupuleusement les indications fournies dans la maquette Figma."
 	  },
 
 	  {
@@ -38,9 +38,9 @@
 		"cover": "https://i.goopics.net/pxvjqt.png",
 		"pictures": "https://i.goopics.net/qai2iw.jpg",
 		"github" : "https://github.com/elodiechgr/kasa.git",
-		"description": "Développement d'une application web de location immobilière avec React. Initialisation du projet, conception et implémentation des composants React conformément aux maquettes Figma, intégration des routes avec React Router, et adaptation du design pour garantir une expérience responsive sur différentes plateformes.",
+		"description": "L'objectif est de développer une application web de location immobilière en utilisant React. Les tâches comprennent l'initialisation du projet, la conception et l'implémentation des composants React en suivant les maquettes Figma, l'intégration des routes avec React Router, ainsi que l'adaptation du design pour assurer une expérience responsive sur diverses plateformes.",
 		"competences": ["HTML", "Javascript", "React", "SCSS"],
-		"enjeux" : "Le principal enjeu de ce projet était de bien utiliser React et sa logique de composants modulables, j'ai bien réfléchi à l'utilisation de chaque composant avant de les créer afin d'avoir une logique et une bonne constrcution dans cette application."
+		"enjeux" : "La problématique centrale de ce projet résidait dans la maîtrise de React et de sa logique de composants modulaires. J'ai abordé cette difficulté en réfléchissant minutieusement à l'utilisation de chaque composant avant de les créer, garantissant ainsi une structure logique et solide dans l'application."
 	  },
 
 	  {
@@ -49,20 +49,20 @@
 		"cover": "https://i.goopics.net/v9s996.png",
 		"pictures": "https://i.goopics.net/x1td81.jpg",
 		"github" : "https://github.com/elodiechgr/mon-vieux-grimoire.git",
-		"description": "Mise en place du back-end d'un site de notation de livres avec Express. Création d'une API RESTful pour gérer l'ajout de notations et calculer la note moyenne d'un livre. Implémentation d'un système d'authentification pour sécuriser l'application. Intégration d'une gestion des fichiers utilisateur, permettant d'ajouter des médias liés aux livres.",
+		"description": " L'objectif est de mettre en place le back-end d'un site de notation de livres en utilisant Express. Les tâches incluent la création d'une API RESTful pour gérer l'ajout de notations et calculer la note moyenne d'un livre, l'implémentation d'un système d'authentification pour sécuriser l'application, ainsi que l'intégration d'une gestion des fichiers utilisateur permettant d'ajouter des médias liés aux livres.",
 		"competences": ["Node.js", "MongoDB", "Javascript"],
-		"enjeux" : "Dans ce projet, je devais utiliser les principes du green code, j'ai donc dû faire des recherches afin de proposer les meilleures pratiques. "
+		"enjeux" : "Dans ce projet, l'adhésion aux principes du green code était un aspect essentiel. J'ai donc pris soin d'adopter des pratiques et des méthodologies qui favorisent l'efficacité et la durabilité du code. Cette approche m'a permis de concevoir une solution robuste et économe en ressources, tout en garantissant une performance optimale de l'application."
 	  },
 
 	  {
 		"id": "6",
 		"title": "Nina Carducci",
 		"cover": "https://i.goopics.net/oe2myv.png",
-		"pictures": "https://i.goopics.net/rdrnwi.jpg",
+		"pictures": "",
 		"github" : "https://github.com/elodiechgr/site-photographe.git",
-		"description": "Déboguer et optimiser un site de photographe en effectuant des améliorations globales des performances et du référencement SEO. Mettre en place le référencement local en utilisant Schema.org pour renforcer la visibilité géographique. Ajouter les métadonnées nécessaires pour les réseaux sociaux, favorisant le partage et l'interaction. Effectuer des modifications en matière d'accessibilité pour garantir une expérience inclusive. Corriger les bugs dans le code pour assurer un fonctionnement fluide du site. Fournir un rapport d'optimisation détaillé, exposant toutes les actions entreprises et leur impact sur le site.",
+		"description": "L'objectif était de déboguer et d'optimiser un site de photographe en réalisant des améliorations globales des performances et du référencement SEO. Les tâches incluent la mise en place du référencement local à l'aide de Schema.org pour renforcer la visibilité géographique, l'ajout de métadonnées nécessaires pour les réseaux sociaux afin de favoriser le partage et l'interaction, ainsi que des modifications en matière d'accessibilité pour garantir une expérience inclusive. En outre, il est nécessaire de corriger les bugs dans le code pour assurer un fonctionnement fluide du site. Enfin, j'ai envoyé un rapport d'optimisation détaillé exposant toutes les actions entreprises et leur impact sur le site.",
 		"competences": ["SEO", "HTML", "CSS", "Javascript"],
-		"enjeux" : "Le principal enjeu de ce projet était de passer chaque score Lighthouse au dessus de 90 points. J'ai réussi à atteindre cet objectif notamment grâce à la compression des images."
+		"enjeux" : "Dans ce projet, l'enjeu majeur résidait dans l'optimisation des scores Lighthouse pour chaque aspect du site, en visant à dépasser les 90 points requis. Pour répondre à cette exigence, j'ai adopté différentes stratégies, parmi lesquelles la compression des images a joué un rôle clé. Cette mesure a permis de réduire la taille des fichiers et d'améliorer significativement les performances du site, contribuant ainsi à l'atteinte de l'objectif fixé."
 	  },
 
 	  {

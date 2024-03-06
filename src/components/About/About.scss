@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-  }
+}
   
   /* Media Queries */
   
@@ -65,7 +65,7 @@
   @media only screen and (max-width: 480px) {
     h2.about {
       font-size: 2.5rem;
-      margin: 80px 20px;
+      margin: 50px 20px 20px 20px;
     }
   
     .about-content {
@@ -73,14 +73,27 @@
       margin: 0 20px;
     }
   
-    .about-text,
-    .about-image {
+    .about-text{
       text-align: center;
     }
-  
-    .about-text {
-      margin-right: 0;
-      margin-bottom: 20px;
+
+    .about-image {
+      text-align: center;
+
+      img {
+        width: 200px;
+        height: 200px;
+        border-top: 0px;
+        border-bottom: 0px;
+      }
     }
+
+    .about-description {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 0px;
+    }
+
+    
   }
   
