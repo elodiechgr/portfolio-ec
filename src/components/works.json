@@ -3,7 +3,7 @@
 		"id": "1",
 		"title": "Portfolio Architecte",
 		"cover": "https://i.goopics.net/omgr45.png",
-		"pictures": "https://i.goopics.net/oc5kfu.jpg",
+		"pictures": "https://i.goopics.net/q6u35x.jpg",
 		"github" : "https://github.com/elodiechgr/portfolio-architecte.git",
 		"description": "Développement d'une page web dynamique en JavaScript avec trois missions clés : premièrement, créer une page de présentation des travaux de l'architecte en utilisant un HTML existant ; deuxièmement, concevoir une page de connexion pour l'administrateur (client) à partir de zéro ; et troisièmement, mettre en place une modale permettant le téléchargement de nouveaux médias, entièrement développée à partir de zéro.",
 		"competences": ["HTML", "CSS", "Javascript"],
@@ -13,7 +13,7 @@
 	  {
 		"id": "2",
 		"title": "Pink Snake",
-		"cover": "https://i.goopics.net/pbjsl6.png",
+		"cover": "https://i.goopics.net/q9sqoq.gif",
 		"pictures": "https://i.goopics.net/uju66k.jpg",
 		"github" : "https://github.com/elodiechgr/pink-snake",
 		"description": "J'ai souhaité développer une version différente de l'emblématique jeu Snake, c'est pourquoi je me suis lancé dans le développement d'une interprétation originale du jeu en optant pour une esthétique aux tons pastels.",
@@ -23,9 +23,9 @@
 
 	{
 		"id": "3",
-		"title": "Booki",
-		"cover": "https://i.goopics.net/o4fxq3.png",
-		"pictures": "https://i.goopics.net/o6bpom.jpg",
+		"title": "Trip booker",
+		"cover": "https://i.goopics.net/9chjy3.png",
+		"pictures": "https://i.goopics.net/2ddwwp.jpg",
 		"github" : "https://github.com/elodiechgr/booki.git",
 		"description": " L'objectif est de développer un site Internet pour permettre aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Ma responsabilité consiste à intégrer l'interface du site en utilisant du code HTML et CSS.",
 		"competences": ["HTML", "CSS"],
@@ -34,9 +34,9 @@
 
 	  {
 		"id": "4",
-		"title": "Kasa",
-		"cover": "https://i.goopics.net/pxvjqt.png",
-		"pictures": "https://i.goopics.net/qai2iw.jpg",
+		"title": "My Kasa",
+		"cover": "https://i.goopics.net/swnwtm.png",
+		"pictures": "https://i.goopics.net/ic871v.jpg",
 		"github" : "https://github.com/elodiechgr/kasa.git",
 		"description": "L'objectif est de développer une application web de location immobilière en utilisant React. Les tâches comprennent l'initialisation du projet, la conception et l'implémentation des composants React en suivant les maquettes Figma, l'intégration des routes avec React Router, ainsi que l'adaptation du design pour assurer une expérience responsive sur diverses plateformes.",
 		"competences": ["HTML", "Javascript", "React", "SCSS"],
@@ -45,9 +45,9 @@
 
 	  {
 		"id": "5",
-		"title": "Mon vieux grimoire",
+		"title": "Biblio Notes",
 		"cover": "https://i.goopics.net/v9s996.png",
-		"pictures": "https://i.goopics.net/x1td81.jpg",
+		"pictures": "https://i.goopics.net/lulcpd.jpg",
 		"github" : "https://github.com/elodiechgr/mon-vieux-grimoire.git",
 		"description": " L'objectif est de mettre en place le back-end d'un site de notation de livres en utilisant Express. Les tâches incluent la création d'une API RESTful pour gérer l'ajout de notations et calculer la note moyenne d'un livre, l'implémentation d'un système d'authentification pour sécuriser l'application, ainsi que l'intégration d'une gestion des fichiers utilisateur permettant d'ajouter des médias liés aux livres.",
 		"competences": ["Node.js", "MongoDB", "Javascript"],
@@ -56,8 +56,8 @@
 
 	  {
 		"id": "6",
-		"title": "Nina Carducci",
-		"cover": "https://i.goopics.net/oe2myv.png",
+		"title": "Portfolio Photographe",
+		"cover": "https://i.goopics.net/zikaim.png",
 		"pictures": "",
 		"github" : "https://github.com/elodiechgr/site-photographe.git",
 		"description": "L'objectif était de déboguer et d'optimiser un site de photographe en réalisant des améliorations globales des performances et du référencement SEO. Les tâches incluent la mise en place du référencement local à l'aide de Schema.org pour renforcer la visibilité géographique, l'ajout de métadonnées nécessaires pour les réseaux sociaux afin de favoriser le partage et l'interaction, ainsi que des modifications en matière d'accessibilité pour garantir une expérience inclusive. En outre, il est nécessaire de corriger les bugs dans le code pour assurer un fonctionnement fluide du site. Enfin, j'ai envoyé un rapport d'optimisation détaillé exposant toutes les actions entreprises et leur impact sur le site.",

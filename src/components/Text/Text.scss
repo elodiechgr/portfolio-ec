@@ -1,0 +1,21 @@
+ 
+  .container {
+    overflow: hidden;
+    height: 140px;
+  }
+    
+  .text {
+    white-space: nowrap;
+    animation: defilement 10s linear infinite;
+    font-size: 130px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    margin-top: -180px;
+    color: white;
+  }
+    
+  @keyframes defilement {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  

@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import CardContainer from "../components/CardContainer/CardContainer";
 import Footer from "../components/Footer/Footer";
 import About from "../components/About/About";
+import Text from "../components/Text/Text";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <div id="portfolio">
         <CardContainer />
       </div>
+      <Text />
       <div id="contact">
         <Footer />
       </div>
