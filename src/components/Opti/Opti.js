@@ -38,8 +38,8 @@ const Dev = () => {
       </div>
 
       <h3 className="h3-dev">
-        Vous souhaitez obtenir plus de votre site internet ? Boostez le avec mon
-        service d'optimisation. Je m'engage à améliorer ses performances, à
+        Vous souhaitez tirer le maximum de votre site internet ? Boostez le avec
+        mon service d'optimisation. Je m'engage à améliorer ses performances, à
         enrichir ses fonctionnalités et à intégrer des solutions basées sur l'IA
         pour propulser votre entreprise vers le succès. Faites passer votre site
         au niveau supérieur.
