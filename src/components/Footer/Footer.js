@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="footer">
       <div className="contact-info">
         <h2>CONTACT</h2>
         <h3>Vous avez un projet ? Discutons-en !</h3>

@@ -1,13 +1,27 @@
+#about {
+  background-color: white;
+  padding : 80px 0 100px 0;
+}
+
 .about-body {
-    background: linear-gradient(to bottom, #faf0e6, #cec6f9);
+    //background: linear-gradient(to bottom, #faf0e6, #cec6f9);
     text-align: center;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 120px 60px 0 60px;
+
   }
   
   h2.about {
-    margin: 120px 80px 80px 80px;
-    font-size: 6rem;
-    color: #151515;
+    z-index: 1;
+    font-family: Manrope;
+    margin: 0 0 -50px 100px;
+    font-size: 2rem;
+    background: linear-gradient(90deg, #86e1f5 0%, #c471ed 8%, #f47981 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .about-content {
@@ -27,22 +41,82 @@
     text-align: center;
   }
   
+.about-img {
+  width: 450px;
+  height: 450px;
+}
+
   .about-description {
     color: #151515;
     margin-top: 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Manrope", sans-serif;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin: 0 40px 20px 40px;
+    text-align: left;
+    line-height: 1.8;
+    width: 80%;
+  }
+
+  .faq {
+    padding: 20px;
+    width: 80%;
+    margin-top: 50px;
+    
+  
+    .h2-faq {
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+  
+    .text-faq {
+      margin-top: 20px; /* Réduit l'espace au-dessus du menu déroulant */
+      line-height: 1.8;
+
+    }
+  
+    .question {
+      margin-bottom: 20px;
+  
+      .question-text {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+        font-size: 20px;
+  
+        .icon {
+          transition: transform 0.6s ease-in-out;
+        }
+  
+        &:hover {
+          .icon {
+            transform: rotate(180deg); 
+          }
+        }
+      }
+  
+      .answer {
+        display: none;
+        padding: 10px;
+        transition: 0.5s ease-in-out;
+  
+        p {
+          margin: 0;
+          font-size: 16px;
+        }
+  
+        &.active {
+          display: block;
+          margin-top: 10px;
+        }
+      }
+    }
   }
   
-  .about-links {
-    margin-top: 80px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
   
   /* Media Queries */
   

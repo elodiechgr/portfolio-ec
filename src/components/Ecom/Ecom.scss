@@ -1,0 +1,150 @@
+.body-dev {
+    margin: 80px 100px 0 100px;
+    position: relative;
+  }
+
+.header-dev {
+    display: flex;
+    min-width: 100%;
+}
+
+.div-titre-dev {
+    width: 400%;
+    margin-right: 70px;
+  }
+  
+  .intro {
+    line-height: 1.8;
+    margin-top: 60px;
+  }
+  .img-dev img {
+    width: calc(100vw - 200px);
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top: 65px;
+  }
+
+  .txt1-text-dev {
+    margin-left: 100px;
+  }
+
+h1.titre-dev {
+    z-index: 1;
+    font-family: Manrope;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    background: linear-gradient(90deg, #86e1f5 0%, #c471ed 20%, #f47981 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+h2.titre-services-ecom {
+    font-family: Manrope;
+    font-weight: 100;
+    font-size: 3rem;
+    margin : 20px 0 45px 0;
+    }
+
+h2.titre-services1 {
+    font-family: Manrope;
+    font-weight: 100;
+    font-size: 2.5rem;
+    margin : 50px 0 80px 0;
+    }
+
+ul.list-dev {
+    line-height: 3;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 40px;
+}
+
+.h3-dev {
+    margin: 130px 0 130px 0 ;
+}
+
+.row1-ecom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 620px;
+}
+
+.row2-dev {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 440px;
+    margin-top: 70px;
+}
+
+.img1-text-ecom img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.img2-text-dev img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+
+.svg-inline--fa {
+    margin-right: 15px;
+    color: #cfa09e;
+}
+
+
+// +
+
+/* Définition de l'animation */
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Style de l'élément */
+  .plusecom {
+    width: 310px;
+    height: 310px;
+    background:linear-gradient(90deg, rgba(134, 225, 245, 0.7) 0%, rgba(196, 113, 237, 0.7) 40%, rgba(244, 121, 129, 0.7) 90%);
+    position: relative;
+    animation: rotation 5s infinite linear;
+    margin-top: 50px;
+    margin-left: 180px;
+    border-radius: 70px;
+  }
+  
+  /* Style des lignes du plus */
+  .plusecom::before,
+  .plusecom::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px; 
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+  
+  /* Rotation des lignes */
+  .plusecom::before {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .plusecom::after {
+    transform: translate(-50%, -50%);
+  }
+  
+  

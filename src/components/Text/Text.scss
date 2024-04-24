@@ -1,7 +1,8 @@
  
-  .container {
+  .text-container {
     overflow: hidden;
     height: 140px;
+    margin-top: 180px;
   }
     
   .text {
@@ -9,9 +10,11 @@
     animation: defilement 10s linear infinite;
     font-size: 130px;
     font-family: "Manrope", sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     margin-top: -180px;
-    color: white;
+    background: linear-gradient(90deg, #86e1f5 0%, #c471ed 20%, #f47981 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
     
   @keyframes defilement {

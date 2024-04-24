@@ -1,40 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.scss";
+import logo from "../../assets/logo-ec.png";
 
 const Header = () => {
-  const handleClick = (e, id) => {
-    e.preventDefault();
+  const [showDropdown, setShowDropdown] = useState(false);
 
-    const target = document.querySelector(id);
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth" });
-    } else {
-      window.location.href = e.target.href;
-    }
+  const handleDropdown = () => {
+    setShowDropdown(!showDropdown);
   };
 
   return (
     <header className="header">
       <div className="container">
         <nav>
+          <a href="/">
+            <img src={logo} alt="Logo" className="logo elodie chatelais" />
+          </a>
           <ul>
-            <li>
-              <a href="/">Accueil</a>
+            <li
+              className="dropdown"
+              onMouseEnter={handleDropdown}
+              onMouseLeave={handleDropdown}
+            >
+              <a href="#">Services</a>
+              {showDropdown && (
+                <ul className="dropdown-menu">
+                  <li>
+                    <a href="/Projet-sur-mesure">Projet web sur-mesure</a>
+                  </li>
+                  <li>
+                    <a href="/Site-vitrine">Site internet clé en mains</a>
+                  </li>
+                  <li>
+                    <a href="/E-commerce">Site e-commerce Shopify</a>
+                  </li>
+                  <li>
+                    <a href="/Optimisation">Optimisation</a>
+                  </li>
+                </ul>
+              )}
             </li>
             <li>
-              <a href="/" onClick={(e) => handleClick(e, "#portfolio")}>
-                Portfolio
-              </a>
+              <a href="/#about">À propos</a>
             </li>
             <li>
-              <a href="/" onClick={(e) => handleClick(e, "#about")}>
-                About
-              </a>
+              <a href="/portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="/" onClick={(e) => handleClick(e, "#contact")}>
-                Contact
-              </a>
+              <a href="#footer">Contact</a>
             </li>
           </ul>
         </nav>
