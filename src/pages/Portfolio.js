@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header/Header";
-import CardContainer from "../components/CardContainer/CardContainer";
+import CardContainerPortfolio from "../components/CardContainerPortfolio/CardContainerPortfolio";
 import Footer from "../components/Footer/Footer";
 import Text from "../components/Text/Text";
 import Title from "../components/Title/Title";
@@ -12,13 +12,9 @@ export default function Portfolio() {
       <AboutHero />
       <Header />
       <Title />
-      <div id="portfolio">
-        <CardContainer />
-      </div>
+      <CardContainerPortfolio />
       <Text />
-      <div id="contact">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }

@@ -66,13 +66,22 @@
 	  },
 
 	  {
+		"id": "8",
+		"title": "My Classy Pods",
+		"cover": "https://i.goopics.net/tz5k7o.png",
+		"pictures": "https://i.goopics.net/luw6yr.png",
+		"description": "Ma mission était de personnaliser le thème Shopify pour refléter fidèlement l'identité de la marque, en intégrant des fonctionnalités de paiement sécurisées pour les transactions en ligne. J'ai également optimisé la boutique pour le référencement (SEO) afin d'augmenter sa visibilité en ligne, tout en créant une navigation intuitive et conviviale pour les visiteurs du site.",
+		"competences": ["Shopify", "HTML", "CSS", "Javascript"],
+		"enjeux" : "Dans ce projet, il a fallu concilier l'esthétique de la marque avec la fonctionnalité du site. Pour cela, j'ai personnalisé le thème Shopify en accordant une attention particulière aux détails pour refléter son identité distincte. Ensuite, j'ai intégré des fonctionnalités de paiement sécurisées pour garantir la confiance des clients lors des transactions en ligne."
+	  },
+
+	  {
 		"id": "7",
-		"title": "Menu Maker",
-		"cover": "https://i.goopics.net/s5tsqe.png",
-		"pictures": "https://i.goopics.net/9uv8je.jpg",
-		"github" : "https://www.notion.so/8ff483448a5245d1a7c7e8b75bcb30fe?v=a65130874a974233b3702f0d81b33dcc",
-		"description": "Création de Menu Maker by Qwanta, un site facilitant la gestion des menus pour les restaurateurs. Utilisant la méthode agile, j'ai assuré une veille technologique, défini des specs avec le Product Owner et organisé le développement en suivant la méthodologie Scrum. Des fonctionnalités clés ont été déployées progressivement, garantissant qualité et adaptation aux besoins changeants du secteur de la restauration.",
-		"competences": ["HTML", "CSS", "Javascript"],
-		"enjeux" : "Dans ce projet, il a fallu développer de nouvelles compétences, celles d'une cheffe de projet. J'ai donc créé des tableaux Kanban sur Notion, une veille sur Wakelet et j'ai adopté la méthode agile."
+		"title": "Smart Capsule",
+		"cover": "https://i.goopics.net/4z861q.png",
+		"pictures": "https://i.goopics.net/uwhk0p.png",
+		"description": "Ma mission était de créer une expérience en ligne distinctive pour la marque, en concevant un design sur mesure qui reflète parfaitement son esthétique. J'ai également créé, configuré et personnalisé la boutique en ligne Shopify pour répondre précisément aux besoins du client, en m'assurant de former l'équipe à la gestion de la boutique en ligne pour un fonctionnement autonome et efficace.",
+		"competences": ["Shopify", "HTML", "CSS", "Javascript"],
+		"enjeux" : "Dans ce projet, j'ai dû concilier l'esthétique unique de la marque avec les fonctionnalités d'une boutique en ligne performante. Pour cela, j'ai collaboré étroitement avec le client pour concevoir un design sur mesure tout en maintenant une fonctionnalité optimale. J'ai utilisé mes compétences techniques pour configurer et personnaliser Shopify selon les exigences du client, garantissant ainsi une expérience utilisateur fluide."
 	  }
 ]
