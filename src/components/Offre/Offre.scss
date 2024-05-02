@@ -37,5 +37,80 @@
   .animated-letters span {
     color: black; 
   }
+}
+
+
+/* Styles pour les petits écrans (moins de 992px) */
+
+@media only screen and (max-width: 992px) {
   
+  .Services {
+    margin-bottom: 100px;
+  
+    h2.titre-services {
+      font-family: Manrope;
+      font-weight: 100;
+      font-size: 1.8rem;
+      margin: 90px 100px 2px 100px;
+    }
+  
+    h3 {
+      font-size: 3rem;
+      cursor: pointer;
+    
+      &.s-un {
+        margin-left: 25%;
+        margin-top: 80px;
+      }
+    
+      &.s-deux {
+        margin-left: 6%;
+      }
+    
+      &.s-trois {
+        margin-left: 30%;
+      }
+  
+      &.s-quatre {
+        margin-left: 18%;
+      }
+    } 
+  } 
+}
+
+
+@media only screen and (max-width: 400px) {
+  
+  .Services {
+    margin-bottom: 100px;
+  
+    h2.titre-services {
+      font-family: Manrope;
+      font-weight: 100;
+      font-size: 2.2rem;
+      margin: 50px 100px 2px 100px;
+    }
+  
+    h3 {
+      font-size: 40px;
+      cursor: pointer;
+    
+      &.s-un {
+        margin-left: 25%;
+        margin-top: 50px;
+      }
+    
+      &.s-deux {
+        margin-left: 6%;
+      }
+    
+      &.s-trois {
+        margin-left: 30%;
+      }
+  
+      &.s-quatre {
+        margin-left: 18%;
+      }
+    } 
+  } 
 }

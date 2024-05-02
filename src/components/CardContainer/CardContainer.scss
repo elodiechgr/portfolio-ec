@@ -13,7 +13,7 @@
 
   .row-un,
   .row-deux,
-  .rox-trois {
+  .row-trois {
     width: 100%;
     height: 600px;
     display: flex;
@@ -53,21 +53,41 @@
 
 @media only screen and (max-width: 992px) {
   
-  .card-container {
+  .portfolio {
+    position: relative; // Ajout de cette ligne pour positionner le pseudo-élément correctement
+    background-color: white;
+    margin-top: 20px;
+  
+    .titre-portfolio {
+      font-size: 3rem;
+      margin-top: 200px;
+      margin-left: 20%;
+      position: relative; // Ajout de cette ligne pour que le pseudo-élément soit positionné par rapport à ce titre
+      z-index: 1; // Ajout de cette ligne pour que le titre apparaisse au-dessus du pseudo-élément
+    }
+
+  .row-un,
+  .row-deux,
+  .row-trois {
     width: 100%;
-    height: auto;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    margin-bottom: 10px;
-    grid-row-gap: 120px;
-    grid-column-gap: 80px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
   }
 
-  .card {
-    margin: 10px auto;
+  .p-un,
+  .p-deux {
+    width: 50%;
+    height: 80%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
   }
+
+  .p-deux {
+    margin-top: 0px;
+  }
+}
 }
 
  /* Medium devices (phones, less than 768px) */
@@ -94,17 +114,39 @@
   
 /* XSmall devices (phones, less than 375px) */
 
-@media only screen and (max-width: 576px) {
-  
-    .card-container {
-      width: 90%;
-      height: auto;
-      grid-template-columns: 1fr;
-      margin-bottom: 20px;
-    }
-  
-    .card {
-      margin: 4px auto;
-    }
+/* Small devices (phones, less than 400px) */
+@media only screen and (max-width: 400px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer les éléments horizontalement */
+    background-color: white;
+    margin-top: 10px;
   }
+
+  .row-un,
+  .row-deux,
+  .row-trois {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .p-un,
+  .p-deux {
+    width: 40%;
+    height: 80%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .p-deux {
+    margin-top: 2px;
+  }
+}
+
   

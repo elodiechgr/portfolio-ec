@@ -9,3 +9,15 @@
     background: linear-gradient(90deg, rgba(134, 225, 245, 0.8) 0%, rgba(196, 113, 237, 0.6) 50%, rgba(244, 121, 129, 0.6) 90%);
   }
   
+
+  @media only screen and (max-width: 400px) {
+  
+    .line-container {
+      width: 100%;
+      top: 0;
+    }
+    
+    .line {
+      height: 8px;
+    }
+  }

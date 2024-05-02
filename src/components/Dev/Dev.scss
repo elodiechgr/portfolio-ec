@@ -144,4 +144,122 @@ ul.list-dev {
     transform: translate(-50%, -50%);
   }
   
+
+    /* Media Queries */
+  
+    @media only screen and (max-width: 992px) {
+    
+      .img-dev img {
+        height: 350px;
+        object-fit: cover;
+        border-radius: 50px;
+        margin-top: 4%;
+      }
+    
+    h2.titre-services {
+        font-family: Manrope;
+        font-weight: 100;
+        font-size: 2rem;
+        margin : 50px 0 50px 0;
+        }
+    
+    h2.titre-services1 {
+        font-weight: 100;
+        font-size: 2rem;
+        margin : 100px 0 40px 0;
+        }
+    
+    ul.list-dev {
+        line-height: 3;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    .h3-dev {
+        margin: 40px 0 40px 0 ;
+    }
+    
+    .row1-dev {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 520px;
+    }
+    
+    .row2-dev {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 480px;
+        margin-top: 50px;
+    }
+    
+    .img1-text-dev img {
+        width: 100%;
+        height: 100px;
+        border-radius: 30px;
+    }
+    
+    .img2-text-dev img {
+        max-width: 500px;
+        height: auto;
+        border-radius: 30px;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+    
+    
+    .svg-inline--fa {
+        margin-right: 15px;
+    }
+    
+    
+    // +
+    
+    /* Définition de l'animation */
+    @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      
+      /* Style de l'élément */
+      .plusdev {
+        width: 130px;
+        height: 130px;
+        background:linear-gradient(90deg, rgba(134, 225, 245, 0.7) 0%, rgba(196, 113, 237, 0.7) 40%, rgba(244, 121, 129, 0.7) 90%);
+        position: relative;
+        animation: rotation 5s infinite linear;
+        margin-top: 100px;
+        margin-left: 100px;
+        border-radius: 30px;
+      }
+      
+      /* Style des lignes du plus */
+      .plusdev::before,
+      .plusdev::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50px;
+        height: 50px; 
+        background-color: #ffffff;
+        border-radius: 10px;
+      }
+      
+      /* Rotation des lignes */
+      .plusdev::before {
+        transform: translate(-50%, -50%) rotate(90deg);
+      }
+      
+      .plusdev::after {
+        transform: translate(-50%, -50%);
+      }
+
+  }
+
   

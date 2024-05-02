@@ -1,5 +1,4 @@
- 
-  .text-container {
+   .text-container {
     overflow: hidden;
     height: 140px;
     margin-top: 180px;
@@ -21,4 +20,36 @@
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
   }
+
+
+    /* Media Queries */
+  
+    @media only screen and (max-width: 992px) {
+      .text-container {
+        overflow: hidden;
+        height: 140px;
+        margin-top: 0px;
+      }
+        
+      .text {
+        font-size: 80px;
+        font-weight: bold;
+        margin-top: -50px;
+      }
+    }
+
+    @media only screen and (max-width: 400px) {
+      .text-container {
+        overflow: hidden;
+        height: 140px;
+        margin-top: 0px;
+      }
+        
+      .text {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 0px;
+      }
+    }
+  
   

@@ -4,9 +4,14 @@ import logo from "../../assets/logo-ec.png";
 
 const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleDropdown = () => {
     setShowDropdown(!showDropdown);
+  };
+
+  const handleMobileMenuToggle = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
   return (
@@ -14,31 +19,34 @@ const Header = () => {
       <div className="container">
         <nav>
           <a href="/">
-            <img src={logo} alt="Logo" className="logo elodie chatelais" />
+            <img src={logo} alt="Logo" className="logo" />
           </a>
-          <ul>
+          <div className="mobile-menu-toggle" onClick={handleMobileMenuToggle}>
+            <div
+              className={`menu-icon ${isMobileMenuOpen ? "open" : ""}`}
+            ></div>
+          </div>
+          <ul className={`menu ${isMobileMenuOpen ? "open" : ""}`}>
             <li
-              className="dropdown"
+              className={`dropdown ${showDropdown ? "active" : ""}`}
               onMouseEnter={handleDropdown}
               onMouseLeave={handleDropdown}
             >
               <a href="#">Services</a>
-              {showDropdown && (
-                <ul className="dropdown-menu">
-                  <li>
-                    <a href="/Projet-sur-mesure">Projet web sur-mesure</a>
-                  </li>
-                  <li>
-                    <a href="/Site-vitrine">Site internet clé en mains</a>
-                  </li>
-                  <li>
-                    <a href="/E-commerce">Site e-commerce Shopify</a>
-                  </li>
-                  <li>
-                    <a href="/Optimisation">Optimisation</a>
-                  </li>
-                </ul>
-              )}
+              <ul className={`dropdown-menu ${showDropdown ? "show" : ""}`}>
+                <li>
+                  <a href="/Projet-sur-mesure">Projet web sur-mesure</a>
+                </li>
+                <li>
+                  <a href="/Site-vitrine">Site internet clé en mains</a>
+                </li>
+                <li>
+                  <a href="/E-commerce">Site e-commerce Shopify</a>
+                </li>
+                <li>
+                  <a href="/Optimisation">Optimisation</a>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="/#about">À propos</a>
